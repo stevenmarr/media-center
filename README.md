@@ -32,12 +32,17 @@ EXAMPLE:
 2) Add the movie object name to the list of movies.
 
 EXAMPLE:
+
 		movies = [toy_story, avatar]
+
+
 
 3) Start the webserver by running the fresh_tomatoes.py script
 
 EXAMPLE:
+
 		python fresh_tomatoes.py
+
 
 
 Steven Marr
