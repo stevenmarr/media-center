@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-
+#create new movie objects here, each new object requires the movie title and trailer url.
 toy_story = media.Movie("Toy Story",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
@@ -18,14 +18,9 @@ clue = media.Movie("Clue",
 despicable_me = media.Movie("Despicable Me",
                     "https://www.youtube.com/watch?v=sUkZFetWYY0")
 
-
-
-
-
-
-
-
+#add movie object name to this list in order for the movie information to rendered in the webpage
 movies = [toy_story, avatar, mystery_alaska, the_princess_bride, clue,
             despicable_me]
 
+#launch webrowser and load movies
 fresh_tomatoes.open_movies_page(movies)
